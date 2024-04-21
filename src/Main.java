@@ -51,5 +51,6 @@ public class Main {
     }
     static void Minombre(){
       System.out.println("mi nombre es Miguel Angel Ortiz Puerta");
+      System.out.println("soy del grupo de lenguajes de 6 a 9");
     }
 }
