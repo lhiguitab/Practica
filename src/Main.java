@@ -45,6 +45,5 @@ public class Main {
         angel.cambiarDimension();
         angel.volar();
         angel.hacerMilagro();
-    System.out.println("Se ha recibido tu cambio");
     }
 }
