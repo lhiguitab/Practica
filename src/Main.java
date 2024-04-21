@@ -8,10 +8,12 @@ import SeresDelCielo.Angel;
 public class Main {
     public static void main(String[] args) {
         Creador creador = new CreadorDeSeresVivos();
+        Minombre();
 
         System.out.println("---HUMANO---");
-        Humano humano = (Humano) creador.crearSerVivo("Humano");
+      Humano humano = (Humano) creador.crearSerVivo("Humano");
         humano.nacer();
+
         humano.crecer();
         humano.reproducirse();
         humano.morir();
@@ -46,5 +48,8 @@ public class Main {
         angel.cambiarDimension();
         angel.volar();
         angel.hacerMilagro();
+    }
+    static void Minombre(){
+      System.out.println("mi nombre es Miguel Angel Ortiz Puerta");
     }
 }
